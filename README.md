@@ -22,6 +22,8 @@
 
 -Debe tener sus datos personales:.
 
+   <p align="center"> 1) Nombre </b> 2) Edad </b>3) Nacionalidad </b>4) Biografía </p>
+
 -Debe tener una sección de Hobbies y Soft SkillsPor ejemplo:Pasatiempos: actividades que disfruta hacer.Habilidades blandas: comunicación, liderazgo, empatía …
 
 -Debe tener una sección de formación y cursos.Aquí puedes poner las formaciones y cursos que has realizado, aunque no esté en el área de programación.
