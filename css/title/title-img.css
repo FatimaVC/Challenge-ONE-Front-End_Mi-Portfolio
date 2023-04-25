@@ -29,6 +29,16 @@
     }
 }
 
+@media only screen and (max-width:375px) {
+    /* ======= IMAGEN DE PERFIL ========*/
+
+    .title__img img {
+        width: 80%;
+        margin-top: -15%;
+        margin-left: -14rem;
+    }
+}
+
 /* ------------------------------------ */
 /* ----- Responsive para Tablets ------ */
 /* ------------------------------------ */

@@ -214,10 +214,48 @@
         font-size: 14px;
     }
 
+    .formcontacto__boton {
+        width: 33%;
+    }
+
     .formcontacto__contacto{
         padding: 50px 0;
     }
 
+}
+
+@media only screen and (max-width:375px){
+    .formcontacto__subtext , 
+    .formcontacto__input ,
+    .formcontacto__textarea ,
+    .formcontacto__boton {
+        font-size: 14px;
+    }
+
+    .formcontacto__boton {
+        width: 38%;
+    }
+
+    .formcontacto__contacto{
+        padding: 50px 0;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .formcontacto__subtext , 
+    .formcontacto__input ,
+    .formcontacto__textarea ,
+    .formcontacto__boton {
+        font-size: 14px;
+    }
+
+    .formcontacto__boton {
+        width: 37%;
+    }
+
+    .formcontacto__contacto{
+        padding: 50px 0;
+    }
 }
 
 @media (min-width:768px) and (max-width:1024px){

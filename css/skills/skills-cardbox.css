@@ -54,3 +54,38 @@
 		margin-right: 10px;
     }
 }
+
+@media only screen and (max-width:375px){
+
+    .skills__title{
+        font-size: 22px;
+        margin-bottom: 5%;
+    }
+
+    .skills__line{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 13px;
+    }
+ 
+    .skills__box{
+        width: 25%;
+        height: 140px;
+        margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width:360px){
+
+    .skills__line{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12.5px;
+    }
+}

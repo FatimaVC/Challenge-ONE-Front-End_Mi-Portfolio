@@ -16,6 +16,13 @@
 	}
 }
 
+/* @media only screen and (max-width:375px){
+
+	.header{
+		padding: 10px 0;
+	}
+} */
+
 /* ------------------------------------ */
 /* ----- Responsive para Tablets ------ */
 /* ------------------------------------ */

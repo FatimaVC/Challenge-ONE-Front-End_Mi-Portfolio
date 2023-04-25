@@ -56,3 +56,36 @@
 		margin-right: 10px;
     }
 }
+
+@media only screen and (max-width:375px){
+    .hobbies__title{
+        font-size: 22px;
+        margin-bottom: 5%;
+    }
+
+    .hobbles__box{
+        width: 25%;
+        height: 140px;
+        margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+    }
+
+    .hobbies__line{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .hobbies__line{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12.5px;
+    }
+}

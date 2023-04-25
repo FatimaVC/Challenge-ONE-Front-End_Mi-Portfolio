@@ -154,3 +154,55 @@
     
 
 }
+
+@media only screen and (max-width:375px){
+
+	/* ======= MENU ======== */
+    .header__principal__logo{
+       display: flex;
+       margin-left: 1.2%;
+    }
+	
+    .menu{
+        flex-direction: column;
+        gap: 4px;
+        margin-right: 0px;
+        font-size: 16px;
+        margin-top: -4%;
+    }
+
+    .menu a:not(.email){
+		display: none;
+	}
+    
+    .header__principal a {
+        margin-right: 12px;
+    }
+
+}
+
+@media only screen and (max-width:360px){
+
+	/* ======= MENU ======== */
+    .header__principal__logo{
+       display: flex;
+       margin-left: 1.2%;
+    }
+	
+    .menu{
+        flex-direction: column;
+        gap: 4px;
+        margin-right: 0px;
+        font-size: 16px;
+        margin-top: -4%;
+    }
+
+    .menu a:not(.email){
+		display: none;
+	}
+    
+    .header__principal a {
+        margin-right: 15px;
+    }
+
+}
