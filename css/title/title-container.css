@@ -1,0 +1,34 @@
+.title__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+
+@media only screen and (max-width:425px){
+
+	/* ======= TITULO ======== */
+
+	.title__div{
+        flex-direction: column;
+		padding: 10px 0;
+	}
+    
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px) {
+
+	/* ======= MENU ======== */
+	.title__div{
+		padding: 20px 0px;
+	}
+
+}

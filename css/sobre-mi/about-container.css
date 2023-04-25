@@ -1,0 +1,54 @@
+.about__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.about__info {
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    gap: 16px;
+    margin-left: 4%;
+}
+.about__title{
+    font-family: var(--Raleway);
+    color: var(--color-de-text);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about__parrafo {
+    width: 70%;
+	text-align: justify;
+	line-height: 20px;
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width:425px){
+	/* ======= PARRAFO ======== */
+	.about__parrafo{
+		width: 95%;
+	}
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .about__info{
+        margin-left: 0%;
+    }
+    .about__parrafo{
+		width: 95%;
+	}
+}
+
+
+

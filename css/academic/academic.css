@@ -1,0 +1,14 @@
+.academica {
+    background-color: var(--background-section);
+}
+
+.academica__box {
+    padding: 70px 0;
+}
+
+@media only screen and (max-width:425px){
+    .academica__box{
+        padding: 32px 0 32px;
+    }
+
+}

@@ -1,0 +1,10 @@
+.hobbies{
+    padding: 64px 0 40px 0;
+	text-align: center;
+}
+
+@media only screen and (max-width:425px){
+	.hobbies{
+		padding: 32px 0 32px;
+	}
+}

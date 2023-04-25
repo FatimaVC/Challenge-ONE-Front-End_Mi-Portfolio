@@ -1,0 +1,11 @@
+.skills{
+	padding: 32px 0 64px;
+	text-align: center;
+}
+
+@media only screen and (max-width:425px){
+	.skills{
+		padding: 32px 0 32px;
+	}
+
+}

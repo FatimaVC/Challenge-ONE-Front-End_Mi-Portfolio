@@ -1,0 +1,52 @@
+.title__img {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    margin-left: -4%;
+}
+
+.title__img img {
+    width: 68%;
+    border-radius: 30rem;
+    top: -2%;
+}
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width:425px) {
+    /* ======= IMAGEN DE PERFIL ========*/
+    .title__img {
+        order: -1;
+        /*align-self: stretch;
+        margin-left: -1%;*/
+    }
+
+    .title__img img {
+        width: 80%;
+        margin-top: -15%;
+        margin-left: -16rem;
+    }
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    /* ======= MENU ======== */
+
+    .title__img {
+        order: 0;
+    }
+
+    .title__img img {
+        width: 80%;
+        margin-bottom: -2rem;
+        border-radius: 30rem;
+        margin-top: -30%;
+        margin-left: 45%;
+    }
+
+}

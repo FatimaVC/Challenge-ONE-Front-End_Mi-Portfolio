@@ -1,0 +1,156 @@
+.header__principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.header__principal__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-left: 4%;
+}
+
+.header__principal__img {
+    width: 24px;
+    height: 24px;
+}
+
+.header__principal__title {
+    font-family: var(--Raleway);
+    color: var(--color-de-text);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-right: 6%;
+}
+
+.enlaces{
+	display: flex;
+}
+
+
+.enlaces a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--Raleway);
+    color: var(--color-de-text);
+    margin-right: 25px;
+}
+
+.menu a:active{
+    color: var(--color-link);
+    font-weight: bold;
+}
+.menu a:hover{
+    color: plum;
+    font-weight: 700;
+    cursor: pointer;
+}
+/*.menu__link {
+    text-decoration: none;
+    font-family: var(--Raleway);
+    color: var(--color-de-text);
+    margin-right: 25px;
+}
+
+.email {
+    text-decoration: none;
+    font-family: var(--Raleway);
+    color: var(--color-de-text);
+    margin-right: 25px;
+}
+
+.menu__link__active {
+    color: var(--color-de-text);
+    font-weight: bold;
+    margin-right: 25px;
+}*/
+
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+	.header__principal{
+		padding: 20px 0px;
+	}
+
+    .header__principal__logo{
+        display: flex;
+        margin-left: 0;
+    }
+
+    .header__principal__title{
+        font-size: 16px;
+    }
+
+    .menu{
+        flex-direction: column;
+        gap: 2px;
+        margin-right: 0px;
+        font-size: 18px;
+        margin-top: -4%;
+    }
+
+    .header__principal a:not(.email){
+		display: none;
+	}
+
+    .menu a:hover{
+        color: blueviolet;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+}
+
+
+@media only screen and (max-width:425px){
+
+	/* ======= MENU ======== */
+
+	.header__principal{
+		padding: 10px 0;
+	}
+
+    .header__principal__title{
+        font-size: 16px;
+    }
+
+    .header__principal__logo{
+       display: flex;
+       /*margin-left: 1%;*/
+    }
+	
+    .menu{
+        flex-direction: column;
+        gap: 4px;
+        margin-right: 0px;
+        font-size: 16px;
+        margin-top: -4%;
+    }
+
+    .menu a:not(.email){
+		display: none;
+	}
+    
+    .header__principal a {
+        margin-right: 0px;
+    }
+    
+
+}

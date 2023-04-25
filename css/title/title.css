@@ -1,0 +1,30 @@
+.title {
+    background: var(--color-de-fondo);
+    padding: 0px;
+}
+
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width:425px){
+	/* ======= TITULO ======== */
+
+	.title{
+		padding: 10px 0;
+	}
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+	/* ======= MENU ======== */
+	.title{
+		padding: 20px 10px;
+	}
+
+}

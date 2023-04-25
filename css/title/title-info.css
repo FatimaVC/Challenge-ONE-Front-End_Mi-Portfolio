@@ -1,0 +1,130 @@
+.title__info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 4%;
+}
+
+.title__bio {
+    font-size: 3rem;
+    font-weight: 709;
+    color: var(--color-de-text);
+    margin-bottom: 20px;
+}
+
+.title__subsection{
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--color-de-text);
+    margin-bottom: 20px;
+    
+}
+.title__network{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 20px;
+}
+
+.title__network__text{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--color-de-text);
+}
+
+.title__network__img{
+    width: 24px;
+    height: 24px;
+    margin-left: -3%;
+    margin-top: -1%;
+}
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width:425px){
+
+	.title__info{
+        display: flex;
+        flex-direction: column;
+		width: 90%;
+        margin-left: 0;
+        margin-top: 5%;
+	}
+	
+	.title__bio{
+		font-size: 22px;
+		line-height: 25px;
+		text-align: justify;
+        margin-left: -2%;
+	}
+
+	.title__subsection{
+		text-align:justify;
+		font-size: 16px;
+		line-height: 20px;
+        margin-left: -2%;
+	}
+
+	.title__network{
+		flex-direction: row;
+        gap: 0.8rem;
+        margin-left: -2%;
+	}
+
+	.title__network__text{
+		margin: 0 10px 0 0;
+		font-size: 12px;
+	}
+
+    .title__network__img{
+        margin-left: -1rem;
+        margin-top: -1%;
+    }
+
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+    .title__info {
+        margin-left: 0%;
+    }
+
+    .title__bio{
+		font-size: 1.7rem;
+		line-height: 2rem;
+		text-align: initial;
+	}
+
+	.title__subsection{
+		text-align:justify;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.title__network{
+		flex-direction: row;
+        width: 2%;
+        gap: 1rem;
+	}
+    /*.title__network{
+		flex-direction: row-reverse;
+        gap: 0.8rem;
+	}*/
+
+	.title__network__text{
+		margin: 0 10px 0 0;
+		font-size: 16px;
+	}
+
+    .title__network__img{
+        margin-left: -1rem;
+        margin-top: -30%;
+    }
+
+}
+

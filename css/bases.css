@@ -1,0 +1,36 @@
+:root {
+    --color-de-fondo: #F5F5F5;
+    --Raleway: 'Raleway', normal;
+    --color-de-text: #464646;
+    --color-link: #808080;
+    --background-section: #EAF2FD;
+    --background-section--box: #FFFFFF;
+    --color-boton--repo: #2A7AE4;
+    --background-blanco: #FFFFFF;
+}
+
+html {
+    scroll-behavior: smooth;
+    animation-duration: 500ms;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--color-de-fondo);
+    font-family: var(--Raleway);
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-link);
+}
