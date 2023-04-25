@@ -9,7 +9,6 @@
 
 ### <p> &#9989; &nbsp; Componentes: </p>
 ```
-
 -Debe tener un menú de navegación.
 
 -Debe tener una imagen que se utilizará como banner.
@@ -22,11 +21,13 @@
 
 -Debe tener sus datos personales: Nombre , edad ,Nacionalidad y Biografía
 
--Debe tener una sección de Hobbies y Soft SkillsPor ejemplo:Pasatiempos: actividades que disfruta hacer.Habilidades blandas: comunicación, liderazgo, empatía …
+-Debe tener una sección de Hobbies y Soft Skills :
+ Por ejemplo:Pasatiempos: actividades que disfruta hacer.
+ Habilidades blandas: comunicación, liderazgo, empatía .
 
--Debe tener una sección de formación y cursos.Aquí puedes poner las formaciones y cursos que has realizado, aunque no esté en el área de programación.
+-Debe tener una sección de formación y cursos.
 
--Debe tener experiencia en la sección de programación.Aquí puedes poner los proyectos que ya has realizado anteriormente, como por ejemplo: los proyectos del retador principiante en programación.
+-Debe tener experiencia en la sección de programación: Aquí puedes poner los proyectos que ya has realizado anteriormente, como por ejemplo: los proyectos del retador principiante en programación.
 
 -Debe tener un formulario de contacto con los siguientes campos: Correo electrónico ,Nombre ,Asunto y Mensaje
 
