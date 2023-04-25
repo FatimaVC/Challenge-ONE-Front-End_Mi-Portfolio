@@ -1,7 +1,7 @@
 ### <div align="center"> &#128274; &nbsp; Challenge ONE - PortaFolio &#128274;</p>
 
 #### <p align="center"> Realizado por Oracle y Alura LATAM </p>
-#### <p align="initial"> ¡Bienvenido al primer desafío del Challenge Fron End!</p>
+#### <p align="initial"> ¡Bienvenid@ a mi portafolio!</p>
 
 ### <div align="center">¿De qué trata este challenge? &nbsp; &#129300; </div>
 
@@ -19,24 +19,32 @@
 
 -Debe incluir enlaces a sus redes sociales.
 
--Debe tener sus datos personales: Nombre , edad ,Nacionalidad y Biografía
-
+-Debe tener sus datos personales: 
+           1) Nombre
+           2) Edad
+           3) Nacionalidad
+           4) Biografía
 -Debe tener una sección de Hobbies y Soft Skills :
- Por ejemplo:Pasatiempos: actividades que disfruta hacer.
- Habilidades blandas: comunicación, liderazgo, empatía .
+ Por ejemplo:
+ Pasatiempos: actividades que disfruta hacer.
+ Habilidades:  blandas: comunicación, liderazgo, empatía .
 
 -Debe tener una sección de formación y cursos.
 
 -Debe tener experiencia en la sección de programación: Aquí puedes poner los proyectos que ya has realizado anteriormente, como por ejemplo: los proyectos del retador principiante en programación.
 
--Debe tener un formulario de contacto con los siguientes campos: Correo electrónico ,Nombre ,Asunto y Mensaje
+-Debe tener un formulario de contacto con los siguientes campos:
+     Correo electrónico.
+     Nombre.
+     Asunto.
+     Mensaje.
 
 -Debe tener un Pie de página con la información de la persona que desarrolló el portafolio.
 
 ```
 ### <p> &#10145; &nbsp; Objecciones </p>
 ```
-Es de extrema importancia que el portafolio sea responsivo, lo que quiere decir que debe adaptarse a los diferentes tamaños de pantallas, pudiendo ser desktop, tablet o celular.
+-Es de extrema importancia que el portafolio sea responsivo, lo que quiere decir que debe adaptarse a los diferentes tamaños de pantallas, pudiendo ser desktop, tablet o celular.
 ```
 ### <p> &#128204; &nbsp; Extras </p>
 ```
