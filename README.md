@@ -24,7 +24,7 @@
  2) Edad
  3) Nacionalidad
  4) Biografía
- 
+
 -Debe tener una sección de Hobbies y Soft Skills :
  Por ejemplo:
   Pasatiempos: actividades que disfruta hacer.
@@ -45,7 +45,7 @@
 ```
 ### <p> &#10145; &nbsp; Objecciones </p>
 ```
--Es de extrema importancia que el portafolio sea responsivo, lo que quiere decir que debe adaptarse a los diferentes tamaños de pantallas, pudiendo ser desktop, tablet o celular.
+- Es de extrema importancia que el portafolio sea responsivo, lo que quiere decir que debe adaptarse a los diferentes tamaños de pantallas, pudiendo ser desktop, tablet o celular.
 ```
 ### <p> &#128204; &nbsp; Extras </p>
 ```
