@@ -24,6 +24,7 @@
  2) Edad
  3) Nacionalidad
  4) Biografía
+ 
 -Debe tener una sección de Hobbies y Soft Skills :
  Por ejemplo:
   Pasatiempos: actividades que disfruta hacer.
