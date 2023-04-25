@@ -20,9 +20,7 @@
 
 -Debe incluir enlaces a sus redes sociales.
 
--Debe tener sus datos personales:.
-
-   <p align="center"> 1) Nombre </b> 2) Edad </b>3) Nacionalidad </b>4) Biografía </p>
+-Debe tener sus datos personales: Nombre , edad ,Nacionalidad y Biografía
 
 -Debe tener una sección de Hobbies y Soft SkillsPor ejemplo:Pasatiempos: actividades que disfruta hacer.Habilidades blandas: comunicación, liderazgo, empatía …
 
@@ -30,15 +28,7 @@
 
 -Debe tener experiencia en la sección de programación.Aquí puedes poner los proyectos que ya has realizado anteriormente, como por ejemplo: los proyectos del retador principiante en programación.
 
--Debe tener un formulario de contacto con los siguientes campos
-
-Correo electrónico
-
-Nombre
-
-Asunto
-
-Mensaje
+-Debe tener un formulario de contacto con los siguientes campos: Correo electrónico ,Nombre ,Asunto y Mensaje
 
 -Debe tener un Pie de página con la información de la persona que desarrolló el portafolio.
 
